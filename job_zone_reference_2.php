@@ -63,7 +63,3 @@ VALUES('5','Zone five: Extensive Preparation Needed','Master or Ph.D degree in t
  mysqli_close($con);
  ?> 
  
-
-
-
-/*put the field in one at a time*/
