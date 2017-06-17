@@ -5,6 +5,7 @@ CREATE TABLE task_statements (
   task CHARACTER VARYING(1000) NOT NULL,
   holder_of_position DECIMAL(4,0),
   updated DATE NOT NULL,
+  PRIMARY KEY (task_id),
   FOREIGN KEY (code) REFERENCES occupation_data(code));
 /*! COMMIT */;
 /*! START TRANSACTION */;
