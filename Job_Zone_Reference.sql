@@ -5,6 +5,9 @@ CREATE TABLE job_zone_reference (
   education CHARACTER VARYING(500) NOT NULL,
   experience CHARACTER VARYING(300) NOT NULL,
   level_of_job_training CHARACTER VARYING(300) NOT NULL);
+  
+  /*PRIMARY KEY (job_zone)*?/
+   
 /*! COMMIT */;
 /*! START TRANSACTION */;
 
