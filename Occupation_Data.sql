@@ -4,6 +4,8 @@ CREATE TABLE occupation_data (
   code CHARACTER(10) NOT NULL,
   occupation_title CHARACTER VARYING(150) NOT NULL,
   occupation_description CHARACTER VARYING(1000) NOT NULL);
+  /*PRIMARY KEY (onetsoc_code)*/
+  
 /*! COMMIT */;
 /*! START TRANSACTION */;
 
